@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+       <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 		<title>JSR Kitchen</title>
 		<meta name="keywords" content="JSR Kitchen">
@@ -436,12 +436,12 @@
 		</div>
 			<div class="row">
 				<div class="col-lg-6">
-					<form>
+					<form action="mail.php" method="Post">
 						<div class="row">
 							<div class="col-md-12">
 								<div class="form-group mb-3">
 									<label for="form_name" class="mb-1">Full Name *</label>
-									<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your fullname *" required="required" data-error="Firstname is required.">
+									<input type="text" name="name" class="form-control" placeholder="Please enter your fullname *" required="required" data-error="Firstname is required.">
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
@@ -450,14 +450,14 @@
 							<div class="col-md-12">
 								<div class="form-group mb-3">
 									<label for="form_email" class="mb-1">Email *</label>
-									<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+									<input type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
 							<div class="col-md-12">
 								<div class="form-group mb-3">
 									<label for="form_phone" class="mb-1">Phone</label>
-									<input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+									<input type="tel" name="mobile" class="form-control" placeholder="Please enter your phone">
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
@@ -466,7 +466,7 @@
 							<div class="col-md-12">
 								<div class="form-group mb-3">
 									<label for="form_message" class="mb-1">Message *</label>
-									<textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="" data-error="Please,leave us a message."></textarea>
+									<textarea name="querys" class="form-control" placeholder="Message for me *" rows="4" required="" data-error="Please,leave us a message."></textarea>
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
@@ -628,12 +628,12 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form>
+                <form action="mail.php" method="Post">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="form-group mb-3">
 								<label for="form_name" class="mb-1">Full Name *</label>
-								<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your fullname *" required="required" data-error="Firstname is required.">
+								<input type="text" name="name" class="form-control" placeholder="Please enter your fullname *" required="required" data-error="Firstname is required.">
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
@@ -642,14 +642,14 @@
 						<div class="col-md-12">
 							<div class="form-group mb-3">
 								<label for="form_email" class="mb-1">Email *</label>
-								<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+								<input  type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
 						<div class="col-md-12">
 							<div class="form-group mb-3">
 								<label for="form_phone" class="mb-1">Phone</label>
-								<input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+								<input  type="tel" name="mobile" class="form-control" placeholder="Please enter your phone">
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
@@ -658,7 +658,7 @@
 						<div class="col-md-12">
 							<div class="form-group mb-3">
 								<label for="form_message" class="mb-1">Message *</label>
-								<textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="" data-error="Please,leave us a message."></textarea>
+								<textarea  name="querys" class="form-control" placeholder="Message for me *" rows="4" required="" data-error="Please,leave us a message."></textarea>
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
